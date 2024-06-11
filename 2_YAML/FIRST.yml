@@ -1,0 +1,36 @@
+# hey this a coment in yaml
+
+my-course : "MLOPS CERTIFICATE"     # key value pair
+version : 1
+price : 299
+is_public : true
+release_date : 2004-09-15
+pre_enrolled : null
+category :                                 # list
+ - AWS
+ - DEVOPS
+ - CERTIFICATE
+
+course_dev : ['harsh','jay']                  # another way to store the list 
+
+dev_details :                                # array which containes the objects
+ - name : "harsh"
+   mail : "abc@gmail.com"
+   role : "supporter"
+ - name : "jay"
+   mail : "abcd@gmail.com"
+   role : "supporter 1 "
+ - name : "harsh joshi "
+   mail : "abcde@gmail.com"
+   role : "supporter 2"
+
+  
+short_description :                       ### treated as a single line
+ this course is for 
+ preoffesional aws devops
+ developer and coders 
+
+detailed_description : |                   ### treated as multi line string 
+ this course is for 
+ preoffesional aws devops
+ developer and coders 
